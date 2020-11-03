@@ -10,7 +10,7 @@ source:
   sha256: bbb57f71356738f46dd34648f562047755c369f4a64dcfab92d5c7e2a97718aa
 
 build:
-  number: 1
+  number: 2
   script: '{{ PYTHON }} -m pip install --no-deps --ignore-installed . '
   skip: true  # [win or osx]
 
@@ -27,6 +27,8 @@ requirements:
     - python
     - numpy
     - openjdk 8*
+  run_constrained:
+    - python-javabridge =99999999
 
 test:
   imports:
@@ -38,7 +40,7 @@ test:
 
 about:
   home: http://github.com/CellProfiler/python-javabridge/
-  license: BSD
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
   summary: Python wrapper for the Java Native Interface
@@ -50,3 +52,4 @@ about:
 extra:
   recipe-maintainers:
     - sunyi000
+    - raivivek

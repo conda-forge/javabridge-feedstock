@@ -3,7 +3,7 @@ About javabridge
 
 Home: http://github.com/CellProfiler/python-javabridge/
 
-Package license: BSD
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/javabridge-feedstock/blob/master/LICENSE.txt)
 
@@ -168,5 +168,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@raivivek](https://github.com/raivivek/)
 * [@sunyi000](https://github.com/sunyi000/)
 
